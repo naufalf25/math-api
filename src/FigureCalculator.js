@@ -17,7 +17,6 @@ class FigureCalculator {
   }
 
   _validate3Args(args) {
-    console.log(args);
     if (args.length !== 3) {
       throw new Error('Fungsi ini hanya menerima tiga parameter');
     }
